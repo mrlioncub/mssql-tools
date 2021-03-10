@@ -5,12 +5,10 @@
 
 SQL Server Command Line Tools
 
-#Usage
+# Usage
 
 Default run for sqlcmd help:
 
 ```bash
 docker run mrlioncub/mssql-tools
 ```
-
-
