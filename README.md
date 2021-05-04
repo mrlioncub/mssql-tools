@@ -3,7 +3,7 @@
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/mrlioncub/mssql-tools)](https://hub.docker.com/r/mrlioncub/mssql-tools)
 [![Docker Image Size](https://img.shields.io/docker/image-size/mrlioncub/mssql-tools/latest)](https://hub.docker.com/r/mrlioncub/mssql-tools)
 
-SQL Server Command Line Tool
+SQL Server Command Line Tool on Alpine Linux
 
 # Usage
 
