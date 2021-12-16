@@ -1,7 +1,8 @@
 FROM alpine
 
 LABEL maintainer="mr.lioncub" \
-      link1="https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server"
+      link1="https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server" \
+      org.opencontainers.image.source="https://github.com/mrlioncub/mssql-tools"
 
 ARG MSSODBCSQL_VERSION=17.8.1.1-1
 ARG MSSQLTOOLS_VERSION=17.8.1.1-1
