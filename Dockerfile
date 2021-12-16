@@ -3,8 +3,8 @@ FROM alpine
 LABEL maintainer="mr.lioncub" \
       link1="https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server"
 
-ARG MSSODBCSQL_VERSION=17.7.2.1-1
-ARG MSSQLTOOLS_VERSION=17.7.1.1-1
+ARG MSSODBCSQL_VERSION=17.8.1.1-1
+ARG MSSQLTOOLS_VERSION=17.8.1.1-1
 
 USER root
 
