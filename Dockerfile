@@ -22,5 +22,5 @@ RUN set -x \
 
 USER 1997
 
-ENTRYPOINT ["/opt/mssql-tools/bin/sqlcmd"]
+ENTRYPOINT ["/opt/mssql-tools18/bin/sqlcmd"]
 CMD ["-?"]
