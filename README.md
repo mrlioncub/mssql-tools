@@ -7,7 +7,7 @@ SQL Server Command Line Tool on Alpine Linux
 Default run for sqlcmd help:
 
 ```bash
-docker run ghcr.io/mrlioncub/mssql-tools
+docker run --rm ghcr.io/mrlioncub/mssql-tools
 ```
 
 Example connect to SQL server:
